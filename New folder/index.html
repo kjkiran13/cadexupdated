@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sparcadex Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <style>
+    body {
+      scroll-behavior: smooth;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+    .hero {
+      background-image: linear-gradient(rgba(12, 0, 40, 0.7), rgba(12, 0, 40, 0.7)), url('664f62e0-924f-4f40-8552-0af243ceed2d.avif');
+      background-size: cover;
+      background-position: center;
+    }
+    .gallery img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .feature-icon {
+      font-size: 2.5rem;
+    }
+    .vibrant-bg-1 { background: linear-gradient(to right, #ffecd2, #fcb69f); }
+    .vibrant-bg-2 { background: linear-gradient(to right, #a1c4fd, #c2e9fb); }
+    .vibrant-bg-3 { background: linear-gradient(to right, #fbc2eb, #a6c1ee); }
+    .vibrant-bg-4 { background: linear-gradient(to right, #f6d365, #fda085); }
+    .vibrant-bg-5 { background: linear-gradient(to right, #e0c3fc, #8ec5fc); }
+    .vibrant-bg-6 { background: linear-gradient(to right, #d4fc79, #96e6a1); }
+    .active-tab {
+      background-color: #4f46e5;
+      color: white !important;
+    }
+    .cs{
+       display: flex;
+       justify-items: center;
+       align-items: center;
+    }
+  </style>
+</head>
+<body class="text-gray-900 bg-white">
+  <header class="bg-gradient-to-r from-purple-900 via-indigo-800 to-blue-800 text-white p-6 text-center shadow-md">
+    <h1 class="text-4xl font-bold tracking-wide">Sparcadex Solutions</h1>
+    <p  class="mt-2 text-lg text-indigo-200">Creative Engineering & Design Excellence</p>
+    
+  </header>
+
+  <nav class="bg-white border-b border-gray-200 text-center py-3 shadow-sm sticky top-0 z-50" id="navbar">
+    <a href="#about" class="nav-link mx-2 text-indigo-600 font-semibold hover:text-white hover:bg-indigo-600 px-3 py-2 rounded transition">📘 About</a>
+    <a href="#services" class="nav-link mx-2 text-indigo-600 font-semibold hover:text-white hover:bg-indigo-600 px-3 py-2 rounded transition">🛠️ Services</a>
+    <a href="#features" class="nav-link mx-2 text-indigo-600 font-semibold hover:text-white hover:bg-indigo-600 px-3 py-2 rounded transition">🌟 Why Us</a>
+    <a href="#gallery" class="nav-link mx-2 text-indigo-600 font-semibold hover:text-white hover:bg-indigo-600 px-3 py-2 rounded transition">🖼️ Gallery</a>
+    <a href="#testimonials" class="nav-link mx-2 text-indigo-600 font-semibold hover:text-white hover:bg-indigo-600 px-3 py-2 rounded transition">💬 Testimonials</a>
+    <a href="#contact" class="nav-link mx-2 text-indigo-600 font-semibold hover:text-white hover:bg-indigo-600 px-3 py-2 rounded transition">📞 Contact</a>
+  </nav>
+
+  <section class="hero text-white text-center py-40 px-4">
+    <h2 class="text-5xl font-extrabold drop-shadow-lg leading-snug">Designing the Future<br>One Innovation at a Time</h2>
+    <p class="mt-6 text-xl text-gray-200">Empowering creativity through engineering precision and imagination</p>
+    <div> <img class="cs" src ="main.jpeg"></div>
+  </section>
+
+  <section id="about" class="vibrant-bg-1 max-w-5xl mx-auto py-16 px-6 rounded-xl my-10">
+    <h2 class="text-3xl font-semibold text-gray-900 mb-6 border-b pb-2">About Us</h2>
+    <p class="text-lg leading-relaxed text-gray-800 mb-6">
+      Sparcadex Solutions is a cutting-edge mechanical design and CAD consulting firm that empowers industries with innovative and practical solutions. Our core strength lies in merging technical precision with artistic design to create engineering outcomes that are both robust and aesthetically refined.
+    </p>
+    <h3 class="text-2xl font-semibold text-gray-900 mt-10 mb-2">🎯 Our Mission</h3>
+    <p class="text-lg text-gray-800 mb-6">
+      To revolutionize mechanical design services by fusing state-of-the-art CAD technology with visionary creativity, ensuring our clients remain at the forefront of innovation.
+    </p>
+    <h3 class="text-2xl font-semibold text-gray-900 mb-2">🚀 Our Goal</h3>
+    <p class="text-lg text-gray-800">
+      Our goal is to become the most trusted partner for mechanical design and CAD services globally by continuously innovating, adapting, and delivering world-class quality with every project.
+    </p>
+  </section>
+
+  <section id="services" class="vibrant-bg-2 py-16 px-6 max-w-5xl mx-auto rounded-xl my-10">
+    <h2 class="text-3xl font-semibold text-gray-900 mb-6 border-b pb-2">Our Core Services</h2>
+    <ul class="list-disc list-inside text-lg space-y-3 text-gray-800">
+      <li>2D & 3D Mechanical CAD Drafting</li>
+      <li>Product Design and Prototyping</li>
+      <li>Reverse Engineering and Modeling</li>
+      <li>Technical Documentation</li>
+      <li>Simulation-Driven Concepts</li>
+    </ul>
+  </section>
+
+  <section id="features" class="vibrant-bg-3 py-20 rounded-xl my-10">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center mb-12 text-gray-900">Why Choose Sparcadex?</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center">
+        <div class="p-6 shadow rounded border bg-white">
+          <div class="text-black mb-4 feature-icon">🎨</div>
+          <h3 class="text-xl font-semibold mb-2">Design-Led Thinking</h3>
+          <p class="text-gray-600">We approach mechanical challenges with a designer's mindset to create products that function beautifully.</p>
+        </div>
+        <div class="p-6 shadow rounded border bg-white">
+          <div class="text-black mb-4 feature-icon">🛠️</div>
+          <h3 class="text-xl font-semibold mb-2">Engineering Precision</h3>
+          <p class="text-gray-600">Our CAD models meet the highest benchmarks for detail and accuracy.</p>
+        </div>
+        <div class="p-6 shadow rounded border bg-white">
+          <div class="text-black mb-4 feature-icon">🚀</div>
+          <h3 class="text-xl font-semibold mb-2">Future-Focused</h3>
+          <p class="text-gray-600">Our solutions are ready for prototyping, 3D printing, and real-world application.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="vibrant-bg-4 py-16 px-6 max-w-6xl mx-auto rounded-xl my-10">
+    <h2 class="text-3xl font-semibold text-center text-gray-900 mb-10 border-b pb-2">Project Gallery</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 gallery">
+      <img src="https://via.placeholder.com/400x300" alt="Project 1" class="rounded-lg shadow-md">
+      <img src="https://via.placeholder.com/400x300" alt="Project 2" class="rounded-lg shadow-md">
+      <img src="https://via.placeholder.com/400x300" alt="Project 3" class="rounded-lg shadow-md">
+    </div>
+  </section>
+
+  <section id="testimonials" class="vibrant-bg-6 py-16 px-6 max-w-6xl mx-auto rounded-xl my-10">
+    <h2 class="text-3xl font-semibold text-center text-gray-900 mb-10 border-b pb-2">What Our Clients Say</h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide p-6 bg-white shadow-sm rounded">“Their designs aren't just accurate—they're inspiring.” – Client A</div>
+        <div class="swiper-slide p-6 bg-white shadow-sm rounded">“Sparcadex brings real vision to technical design.” – Client B</div>
+        <div class="swiper-slide p-6 bg-white shadow-sm rounded">“The perfect blend of artistic skill and engineering.” – Client C</div>
+      </div>
+      <div class="swiper-pagination mt-4"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-gray-100 py-16 px-6 max-w-5xl mx-auto rounded-xl my-10">
+    <h2 class="text-3xl font-semibold mb-6 text-gray-900 border-b pb-2">Contact Us</h2>
+    <p class="text-lg text-gray-700">📧 Email: <a href="mailto:info@sparcadex.com" class="text-blue-600 underline">info@sparcadex.com</a></p>
+    <p class="text-lg mt-2 text-gray-700">📞 Phone: +91-6360535683</p>
+    <p class="text-lg mt-2 text-gray-700">📍 Location: Bengaluru, India</p>
+    <form action="https://formsubmit.co/info@sparcadex.com" method="POST" class="space-y-4 mt-6">
+      <input type="text" name="name" placeholder="Your Name" required class="w-full p-2 border border-gray-300 rounded">
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 border border-gray-300 rounded">
+      <textarea name="message" placeholder="Your Message" rows="5" required class="w-full p-2 border border-gray-300 rounded"></textarea>
+      <button type="submit" class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="bg-black text-white text-center py-4 mt-12">
+    <p>&copy; 2025 Sparcadex Solutions. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-link");
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute("id");
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove("active-tab");
+        if (link.getAttribute("href") === `#${current}`) {
+          link.classList.add("active-tab");
+        }
+      });
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    new Swiper('.mySwiper', {
+      pagination: { el: '.swiper-pagination', clickable: true },
+      autoplay: { delay: 3000 },
+      loop: true,
+    });
+  </script>
+</body>
+</html>
